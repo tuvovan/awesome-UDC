@@ -2,18 +2,16 @@
 
 ### LAST UPDATE: 06th October 2020
 
-### NEWS: I am looking for a Collaborator esp who does research in NLP, Computer Vision and Reinforcement learning. If you are not a researcher, but you are willing, contact me. Email me: yxt.stoaml@gmail.com
-
 This repository provides state-of-the-art (SoTA) papers and results for Under Display Camera (UDC). We do our best to keep this repository up to date.  If you do find a problem's SoTA result is out of date or missing, please raise this as an issue (with this information: research paper name, dataset, metric, source code and year). We will fix it immediately.
 
 Please note that this repo is the very first repo in this field, and UDC is early-merging topics so the content will not very much.
 ## Papers
 
 * _Image Restoration for Under-Display Camera [[Project]](https://yzhouas.github.io/projects/UDC/udc.html) [[paper]](https://arxiv.org/pdf/2003.04857v1.pdf)
-* _Deep Atrous Guided Filter for Image Restoration in Under Display Cameras [[paper]]https://arxiv.org/pdf/2008.06229v2.pdf [[code]](https://github.com/varun19299/deep-atrous-guided-filter)
+* _Deep Atrous Guided Filter for Image Restoration in Under Display Cameras [[paper]](https://arxiv.org/pdf/2008.06229v2.pdf) [[code]](https://github.com/varun19299/deep-atrous-guided-filter)
 
 ## Challenges
-*_Real-world Computer Vision from Inputs with Limited Quality [[RLG]](https://rlq-tod.github.io/index.html)
+* _Real-world Computer Vision from Inputs with Limited Quality [[RLG]](https://rlq-tod.github.io/index.html)
 
 
 
@@ -68,4 +66,4 @@ NEURAL MACHINE TRANSLATION</a></td>
   </tbody>
 </table>   -->
 
-Email: yxt.stoaml@gmail.com
+Email: vovantu.hust@gmail.com
