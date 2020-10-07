@@ -1,4 +1,4 @@
-# State-of-the-art result for all Machine Learning Problems
+# State-of-the-art of Under Display Camera Image Restoration
 
 ### LAST UPDATE: 06th October 2020
 
