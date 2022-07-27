@@ -1,6 +1,6 @@
 # State-of-the-art of Under Display Camera Image Restoration
 
-### LAST UPDATE: 06th October 2020
+### LAST UPDATE: 27th July 2022
 
 This repository provides state-of-the-art (SoTA) papers and results for Under Display Camera (UDC). We do our best to keep this repository up to date.  If you do find a problem's SoTA result is out of date or missing, please raise this as an issue (with this information: research paper name, dataset, metric, source code and year). We will fix it immediately.
 
