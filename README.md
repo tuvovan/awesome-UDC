@@ -7,63 +7,17 @@ This repository provides state-of-the-art (SoTA) papers and results for Under Di
 Please note that this repo is the very first repo in this field, and UDC is early-merging topics so the content will not very much.
 ## Papers
 
-* _Image Restoration for Under-Display Camera [[Project]](https://yzhouas.github.io/projects/UDC/udc.html) [[paper]](https://arxiv.org/pdf/2003.04857v1.pdf)
-* _Deep Atrous Guided Filter for Image Restoration in Under Display Cameras [[paper]](https://arxiv.org/pdf/2008.06229v2.pdf) [[code]](https://github.com/varun19299/deep-atrous-guided-filter)
+* Image Restoration for Under-Display Camera [[Project]](https://yzhouas.github.io/projects/UDC/udc.html) [[paper]](https://arxiv.org/pdf/2003.04857v1.pdf)
+* Deep Atrous Guided Filter for Image Restoration in Under Display Cameras [[paper]](https://arxiv.org/pdf/2008.06229v2.pdf) [[code]](https://github.com/varun19299/deep-atrous-guided-filter)
+* Controllable Image Restoration for Under-Display Camera in Smartphones [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Kwon_Controllable_Image_Restoration_for_Under-Display_Camera_in_Smartphones_CVPR_2021_paper.pdf)]
 
 ## Challenges
-* _Real-world Computer Vision from Inputs with Limited Quality [[RLG]](https://rlq-tod.github.io/index.html)
+* Real-world Computer Vision from Inputs with Limited Quality [[RLG]](https://rlq-tod.github.io/index.html)
 
+## UDC Dataset
+The new dataset is collected by a Monitor-Camera Imaging System (MCIS). We utilized 300 images form DIV2K dataset. For each display type: T-OLED, and P-OLED, we collected paired display-free and display-covered imaging data in the form of both 16-bit RAW sensor data, and 8-bit RGB. Images have resolution of 1024*2048. We only release the paired RGB data for training. Our RGB is linear, so users can reverse the process to generate 8-bit RAW sensor data. Please refer to our report for more details of the dataset.
 
-
-<!-- #### 2. Machine Translation
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1808.09381v2.pdf'> Understanding Back-Translation at Scale </a></td>
-      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
-      <td align="left"> <ul><li>  BLEU: 45.6 </li><li>   BLEU: 35.0 </li></ul> </td>
-      <td align="left"> <ul><li><a href='https://github.com/pytorch/fairseq'>PyTorch</a></li></ul></td>
-      <td align="left">2018</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1711.02132.pdf'>WEIGHTED TRANSFORMER NETWORK FOR
-MACHINE TRANSLATION</a></td>
-      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
-      <td align="left"> <ul><li>  BLEU: 41.4 </li><li>   BLEU: 28.9 </li></ul> </td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1706.03762'>Attention Is All You Need</a></td>
-      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
-      <td align="left"> <ul><li>  BLEU: 41.0 </li><li>   BLEU: 28.4 </li></ul> </td>
-      <td align="left"> <ul><li><a href='https://github.com/jadore801120/attention-is-all-you-need-pytorch'>PyTorch</a> </li><li> <a href='https://github.com/tensorflow/tensor2tensor'>Tensorflow</a></li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-     <tr>
-      <td><a href='https://einstein.ai/static/images/pages/research/non-autoregressive-neural-mt.pdf'>NON-AUTOREGRESSIVE
-NEURAL MACHINE TRANSLATION</a></td>
-      <td align="left"> <ul><li> WMT16 Ro→En </li></ul></td>
-      <td align="left"> <ul><li> BLEU: 31.44 </li></ul> </td>
-      <td align="left"><ul><li><a href='https://github.com/salesforce/nonauto-nmt'>PyTorch</a></ul></li></td>
-      <td align="left">2017</td>    
-      </tr>
-          <tr>
-      <td><a href='https://arxiv.org/abs/1703.04887'> Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets</a></td>
-      <td align="left"> <ul><li>NIST02    </li><li>NIST03 </li><li>NIST04 </li><li>NIST05 </li></ul></td>
-      <td align="left"><li>38.74  </li><li>36.01  </li><li> 37.54 </li><li>33.76 </li></ul </td>
-      <td align="left"> <ul><li><a href='https://github.com/ngohoanhkhoa/GAN-NMT'>NMTPY</a> </li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>   -->
+* UDC Training Dataset (RGB, 2.1G) [[Microsoft OneDrive](https://1drv.ms/u/s!At4CtN8cceVdbASQv94dYsMOkSk)] [[Google Drive](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view?usp=sharing)]
+* UDC Validation and Testing Dataset and evaluation codes (RGB, 1.2G) [[Microsoft OneDrive](https://1drv.ms/u/s!At4CtN8cceVdbTR1bFO708hqPLw?e=qW8uMZ)] [[Google Drive](https://drive.google.com/file/d/171_-iTN7bIhLHMZiGHV8zgXtoTG3T297/view?usp=sharing)]
 
 Email: vovantu.hust@gmail.com
